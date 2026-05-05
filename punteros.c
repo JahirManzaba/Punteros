@@ -15,6 +15,6 @@ int main() {
     float *ptrF;
     ptrF = &decimal;
     dec = *ptrF;
-    printf("%p %f, ptrF, dec);
+    printf("%p %2.f, ptrF, dec);
     return 0;
 }
