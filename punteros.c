@@ -6,10 +6,15 @@ int main() {
     x = &num;       
     a = *x;        
     printf("%p %d",x, a);
-char *ptr = 'a', c;
-char *ptr;
-ptr = &letra;
-c=*ptr;
-printf("%p %c",ptr, c);
+    char *ptr = 'a', c;
+    char *ptr;
+    ptr = &letra;
+    c=*ptr;
+    printf("%p %c",ptr, c);
+    float decimal= 3.14, dec;
+    float *ptrF;
+    ptrF = &decimal;
+    dec = *ptrF;
+    printf()
     return 0;
 }
